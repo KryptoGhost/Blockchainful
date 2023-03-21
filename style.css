@@ -9,6 +9,11 @@ body {
     filter: contrast();
 }
 
+@font-face {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	src: url(sensation_light.woff);
+}
+
 header {
 	height: 500px;
     text-align: initial;
