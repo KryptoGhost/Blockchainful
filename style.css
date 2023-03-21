@@ -174,11 +174,9 @@ footer{
 		font-size:3.4rem;
 	}
 	main {
-		width: 80%;
+		width: 90%;
 		margin: auto;
 		padding: 10px;
-		display: unset;
-		margin:auto;
 		text-align: center;
 	}
 	.serv {
