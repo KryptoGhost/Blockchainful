@@ -1,0 +1,153 @@
+body {
+	margin: auto;
+	padding: 0;
+	font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    width:100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    filter: contrast();
+}
+
+header {
+	height: 500px;
+    text-align: initial;
+	margin-bottom: 0;
+	background-image: url("./img/backgrounds.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+header h1 {
+    padding: 0;
+	font-size: 3rem;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 320px;
+}
+
+.logos p {
+	display: unset;
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+}
+
+span {
+	color: blue
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav ul {
+	display: flex;
+    justify-content: space-around;
+    background-color: black;
+	margin: 0;
+	padding: 10px;
+    border-radius: 10px;;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.serv {
+	display: flex;
+	justify-content: space-around;
+	gap: 1px;
+}
+
+.serv div {
+	background-color: lightblue;
+	width: 120px;
+	height: 120px;
+	border: 1px solid black;
+	border-radius: 10px;
+	align-content: center;
+	padding: 6px;
+	box-shadow: 2px 2px 2px black;
+}
+
+.serv div:hover {
+	width: 135px;
+	height: 135px;
+	font-size: 1.25rem;
+}
+
+main {
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 10px;
+
+}
+
+main .background img {
+	width: 400px;
+	height: 400px;
+	border-radius: 30%;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.footer i{
+	color: black;
+	font-size: 1.5rem;
+	padding: 7px;
+
+}
+.footer i:hover {
+	font-size: 2rem;
+}
+
+
+@media screen and (max-width: 500px) {
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		background-size:cover;
+		background-repeat: no-repeat;
+	}
+	main {
+		width: 100%;
+		display: unset;
+	}
+}
